@@ -1,0 +1,49 @@
+.work-exp{
+    background-color: #1387812a;
+    margin-left: 100px;
+    
+}
+
+.work-exp{
+    padding: 60px 0px;
+}
+
+.work-exp h2{
+    font-weight: bold;
+    color: #1e1e2c;
+}
+
+.work-exp hr{
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.work-exp .vertical-timeline-element-title{
+    color: #138781;
+}
+
+.work-exp .vertical-timeline-element-subtitle{
+    color: #1e1e2c80;
+}
+
+/* mobile responsive */
+@media (max-width:600px) {
+    .work{
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .work-exp{
+        margin: 0;
+        padding: 0;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .work hr{
+        width: 280pxc;
+    }
+}
